@@ -13,6 +13,8 @@ public  class Canvas {
 
     private Rectangle field;
 
+    // just trying
+
     public Canvas(int width, int height){
         this.width = width;
         this.height = height;
