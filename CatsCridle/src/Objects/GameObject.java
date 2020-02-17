@@ -1,7 +1,9 @@
 package Objects;
 
+
 public abstract class GameObject {
-    Position position;
+    com.github.TeamCarter.Engine.Position position;
+
 
     public void move() {
 

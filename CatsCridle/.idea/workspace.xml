@@ -1,66 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18c692f7-199e-4d2b-a372-2409ed4bbbbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ArabianNightsExercise/src/org/academiadecodigo/hackstreetboys/FriendlyGenie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ArabianNightsExercise/src/org/academiadecodigo/hackstreetboys/Genie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ArabianNightsExercise/src/org/academiadecodigo/hackstreetboys/GrumpyGenie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ArabianNightsExercise/src/org/academiadecodigo/hackstreetboys/Lamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ArabianNightsExercise/src/org/academiadecodigo/hackstreetboys/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ArabianNightsExercise/src/org/academiadecodigo/hackstreetboys/RecyclabeDemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ExerciseHotel/src/org/academiadecodigo/hackstreetboys/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ExerciseHotel/src/org/academiadecodigo/hackstreetboys/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/ExerciseHotel/src/org/academiadecodigo/hackstreetboys/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/Exercises/src/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/Exercises/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/Exercises/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_3/Exercises/src/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SImpleGFXHandsOn/src/org/academiadecodigo/hackstreetboys/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SImpleGFXHandsOn/src/org/academiadecodigo/hackstreetboys/Controls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SImpleGFXHandsOn/src/org/academiadecodigo/hackstreetboys/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SImpleGFXHandsOn/src/org/academiadecodigo/hackstreetboys/PlayingField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SImpleGFXHandsOn/src/org/academiadecodigo/hackstreetboys/PropFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SniperRifle/src/GameObject/ArmouredEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SniperRifle/src/GameObject/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SniperRifle/src/GameObject/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SniperRifle/src/GameObject/SoldierEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SniperRifle/src/GameObject/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SniperRifle/src/academiadecodigo/org/hackstreetboys/GameObjects/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SniperRifle/src/academiadecodigo/org/hackstreetboys/GameObjects/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana_4/SniperRifle/src/academiadecodigo/org/hackstreetboys/GameObjects/SniperRifle.java" afterDir="false" />
-    </list>
+    <list default="true" id="214f651b-036a-4a5c-ac18-a84b8bd375f2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1XwCtzzc6iSAcppVpjLjmWe0jLn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1XwiGluwVVADlJ2jwd7Ho7PEw8g" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,38 +25,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CatsCridle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="18c692f7-199e-4d2b-a372-2409ed4bbbbc" name="Default Changelist" comment="" />
-      <created>1581947988342</created>
+      <changelist id="214f651b-036a-4a5c-ac18-a84b8bd375f2" name="Default Changelist" comment="" />
+      <created>1581963463677</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-      <updated>1581947196842</updated>
-      <workItem from="1581947199463" duration="104000" />
-      <workItem from="1581947618159" duration="806000" />
-=======
-      <updated>1581947988342</updated>
-      <workItem from="1581947989555" duration="2532000" />
->>>>>>> b7fb5276444c84b846491ea22cdc767ac5d78f1b
+      <updated>1581963463677</updated>
+      <workItem from="1581963464822" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
