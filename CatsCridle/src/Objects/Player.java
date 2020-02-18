@@ -8,7 +8,7 @@ public class Player extends GameObject{
     private String name;
 
     private Picture playerObject;
-    private Rectangle field;
+    //private Rectangle field;
     private static final int PLAYER_CELL_SIZE = 20;
     private int up;
     private int down = 820 / 10;
@@ -28,6 +28,7 @@ public class Player extends GameObject{
             playerObject.translate(10, 0);
             left++;
             right--;
+            System.out.println("right: " + right);
         }
 
     }
@@ -37,6 +38,7 @@ public class Player extends GameObject{
             playerObject.translate(-10, 0);
             right++;
             left--;
+            System.out.println("left: " + left);
         }
     }
 
@@ -45,6 +47,7 @@ public class Player extends GameObject{
             playerObject.translate(0,-10);
             down++;
             up--;
+            System.out.println("up: " + up);
         }
     }
 
@@ -53,7 +56,9 @@ public class Player extends GameObject{
             playerObject.translate(0,+10);
             up++;
             down--;
+            System.out.println("down: " + down);
         }
+
 
     }
 
