@@ -1,6 +1,8 @@
 package com.github.TeamCarter.Frame;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
+import org.academiadecodigo.simplegraphics.pictures.Picture;
+
 import java.awt.*;
 
 public  class Canvas {
@@ -21,11 +23,20 @@ public  class Canvas {
     }
 
     public void makeCanvas() {
-        Rectangle rectangle = new Rectangle(PADDING,PADDING, width, height);
+        Picture canvas = new Picture(PADDING, PADDING, "resources/Images/Canvas/Wassily-Kandinsky-Softened-Construction.jpg");
+        //Rectangle rectangle = new Rectangle(PADDING,PADDING, width, height);
         //this.field = new Rectangle(PADDING,PADDING, cols * cellSize, rows * cellSize);
-        rectangle.setColor(Color.MAGENTA);
-        rectangle.fill();
-        rectangle.draw();
+        canvas.draw();
+        //rectangle.fill();
+        //rectangle.draw();
+    }
+
+    public int getWidth() {
+        return this.width;
+    }
+
+    public int getHeight() {
+        return this.height;
     }
 
 }

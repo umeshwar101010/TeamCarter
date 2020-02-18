@@ -1,4 +1,4 @@
-package com.github.TeamCarter.Engine;
+package Engine;
 
 public class GameEngine {
 
