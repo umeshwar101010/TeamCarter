@@ -9,7 +9,7 @@ public  class Canvas {
 
     public static final int PADDING = 10;
 
-    private int cellSize = 15;
+    private int cellSize = 10;
     private int width ;
     private int height;
 
