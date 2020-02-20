@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ead3fc-6887-4541-b7fb-0dad478559ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/DarkDestination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObjectTypes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Obstacles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/CorrectDestination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/CorrectDestination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/CorrectDestination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/DarkDestination.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObjectTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Obstacles.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/SimpleGfxGrid/SimpleGfxGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/SimpleGfxGrid/SimpleGfxGrid.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/PlayerMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/PlayerMaker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/Position.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Controls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Controls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/MusicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/GameEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

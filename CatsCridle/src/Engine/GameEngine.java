@@ -5,6 +5,7 @@ import Objects.Player;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import com.github.TeamCarter.Frame.Controls;
 import com.github.TeamCarter.Frame.Canvas;
+import org.academiademiadecodigo.hackstreetboys.teamcarter.Audio;
 
 import java.awt.*;
 
@@ -15,6 +16,7 @@ public class GameEngine {
     private Player player;
     private boolean levelOneOn = true;
     private boolean levelTwoOn;
+    private Audio audio;
 
     private Enemy enemy;
 
@@ -27,11 +29,16 @@ public class GameEngine {
     public void init() {
         //Player player = new Player();
         levelOneCanvas();
+        //audio starter
+        audio = new Audio();
+        audio.startAudio();
+        //audio starter
         player = new Player();
         player.spawn();
 
         enemy = new Enemy();
         enemy.spawn();
+
         //enemy.move();
 
         Controls controls = new Controls();
