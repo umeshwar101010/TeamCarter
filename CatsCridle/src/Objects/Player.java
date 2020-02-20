@@ -5,16 +5,21 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 import java.awt.*;
 
+import static Objects.Menu.PADDING;
+import static java.awt.image.ImageObserver.HEIGHT;
+import static java.awt.image.ImageObserver.WIDTH;
+
 public class Player extends GameObject{
+
     private String name;
 
     private Picture playerObject;
     //private Rectangle field;
     private static final int PLAYER_CELL_SIZE = 20;
     private int up;
-    private int down = 820 / 10;
+    private int down = (HEIGHT-2* PADDING -PLAYER_CELL_SIZE ) / MOVEMENT;
     private int left;
-    private int right = 390 / 10;
+    private int right = (WIDTH-2* PADDING -PLAYER_CELL_SIZE )/ MOVEMENT;
     private boolean reachedObjective;
     //private int width = 390 / 10;
     //private int heigth = 820;
@@ -39,8 +44,8 @@ public class Player extends GameObject{
     }
 
     public void moveRight() {
-        if(right > 0) {
-            playerObject.translate(10, 0);
+        if(right >= 0) {
+            playerObject.translate(MOVEMENT, 0);
             left++;
             right--;
             System.out.println("right: " + right);
@@ -51,8 +56,8 @@ public class Player extends GameObject{
     }
 
     public void moveLeft() {
-        if(left > 0) {
-            playerObject.translate(-10, 0);
+        if(left >= 0) {
+            playerObject.translate(-MOVEMENT, 0);
             right++;
             left--;
             System.out.println("left: " + left);
@@ -63,8 +68,8 @@ public class Player extends GameObject{
     }
 
     public void moveUp() {
-        if(up > 0) {
-            playerObject.translate(0,-10);
+        if(up >= 0) {
+            playerObject.translate(0,-MOVEMENT);
             down++;
             up--;
             System.out.println("up: " + up);
@@ -75,8 +80,8 @@ public class Player extends GameObject{
     }
 
     public void moveDown() {
-        if(down > 0) {
-            playerObject.translate(0,+10);
+        if(down >= 0) {
+            playerObject.translate(0,+MOVEMENT);
             up++;
             down--;
             System.out.println("down: " + down);

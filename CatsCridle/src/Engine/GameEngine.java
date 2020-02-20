@@ -10,6 +10,10 @@ import org.academiademiadecodigo.hackstreetboys.teamcarter.Music;
 
 import java.awt.*;
 
+import static Objects.Menu.PADDING;
+import static java.awt.image.ImageObserver.HEIGHT;
+import static java.awt.image.ImageObserver.WIDTH;
+
 public class GameEngine {
 
     private int obstacle = 1;
@@ -26,6 +30,8 @@ public class GameEngine {
         //player = new Player();
         //player.spawn();
     }
+
+
 
     public void init() {
         //Player player = new Player();
@@ -49,20 +55,20 @@ public class GameEngine {
     }
 
     public void levelOneCanvas() {
-        Canvas canvas= new Canvas(423, 850);
+        Canvas canvas= new Canvas(WIDTH, HEIGHT);
         canvas.makeCanvas();
     }
     public void start() {
 
         switch (level) {
             case 0:
-                Rectangle rectangle = new Rectangle(10, 10, 423, 850);
+                Rectangle rectangle = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
                 rectangle.draw();
                 rectangle.fill();                                                           
             case 1:
                 startLevelOne();
             case 2:
-                Rectangle rectangle2 = new Rectangle(10, 10, 423, 850);
+                Rectangle rectangle2 = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
                 rectangle2.draw();
                 rectangle2.fill();
                 break;
@@ -91,7 +97,7 @@ public class GameEngine {
         levelTwoOn = true;
         level = 2;
         System.out.println("hiiiiii");
-        Rectangle c = new Rectangle(10, 10, 89, 90);
+        Rectangle c = new Rectangle(PADDING, PADDING, 89, 90);
         c.draw();
         c.fill();
     }
