@@ -1,4 +1,4 @@
-package org.academiadecodigo.hackstreetboys;
+package org.academiadecodigo.hackstreetboys.Frame;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 

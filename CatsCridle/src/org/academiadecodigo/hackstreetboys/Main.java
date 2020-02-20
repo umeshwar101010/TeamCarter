@@ -1,3 +1,5 @@
+package org.academiadecodigo.hackstreetboys;
+
 import org.academiadecodigo.hackstreetboys.Engine.GameEngine;
 
 public class Main {

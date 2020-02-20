@@ -4,7 +4,7 @@ import org.academiadecodigo.hackstreetboys.Objects.Enemy;
 import org.academiadecodigo.hackstreetboys.Objects.Player;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import org.academiadecodigo.hackstreetboys.Controls.Controls;
-import org.academiadecodigo.hackstreetboys.Canvas;
+import org.academiadecodigo.hackstreetboys.Frame.Canvas;
 
 import static org.academiadecodigo.hackstreetboys.Objects.Menu.PADDING;
 import static java.awt.image.ImageObserver.HEIGHT;
