@@ -6,13 +6,14 @@ import java.io.IOException;
 import java.net.URL;
 
 
-// TODO : Doesn't play sound, find new solution
+/**stable for one track of music*/
 
 public class Audio {
 
-    public void startMusic() {
+    public void startAudio() {
         String pathStr = "/resources/Audio/cb.wav";
-        URL soundURL = MusicTest.class.getResource(pathStr);
+        //Initializer in te class we start the music
+        URL soundURL = Audio.class.getResource(pathStr);
         AudioInputStream audioInputStream = null;
         try {
             if (soundURL == null) {
