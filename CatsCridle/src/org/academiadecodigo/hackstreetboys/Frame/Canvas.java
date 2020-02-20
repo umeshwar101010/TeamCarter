@@ -1,11 +1,8 @@
-package com.github.TeamCarter.Frame;
-import org.academiadecodigo.simplegraphics.graphics.Color;
+package org.academiadecodigo.hackstreetboys.Frame;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
-import java.awt.*;
-
-import static Objects.Menu.PADDING;
+import static org.academiadecodigo.hackstreetboys.Objects.Menu.PADDING;
 
 public  class Canvas {
 

@@ -1,4 +1,4 @@
-package org.academiademiadecodigo.hackstreetboys.teamcarter;
+package org.academiadecodigo.hackstreetboys.Audio;
 
 import javax.sound.sampled.*;
 import java.io.File;
@@ -11,7 +11,7 @@ import java.net.URL;
 public class Audio {
 
     public void startAudio() {
-        String pathStr = "/resources/Audio/bb4.wav";
+        String pathStr = "/resources/hackstreetboys.Audio/bb4.wav";
         //Initializer in te class we start the music
         URL soundURL = Audio.class.getResource(pathStr);
         AudioInputStream audioInputStream = null;

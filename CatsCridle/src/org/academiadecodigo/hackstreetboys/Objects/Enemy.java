@@ -1,11 +1,8 @@
-package Objects;
+package org.academiadecodigo.hackstreetboys.Objects;
 
-import Engine.GameEngine;
 import org.academiadecodigo.simplegraphics.graphics.Ellipse;
 
-import javax.crypto.BadPaddingException;
-
-import static Objects.Menu.PADDING;
+import static org.academiadecodigo.hackstreetboys.Objects.Menu.PADDING;
 
 
 

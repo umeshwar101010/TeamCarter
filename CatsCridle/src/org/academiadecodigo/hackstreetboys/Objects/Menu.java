@@ -1,4 +1,4 @@
-package Objects;
+package org.academiadecodigo.hackstreetboys.Objects;
 
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 

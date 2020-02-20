@@ -1,7 +1,4 @@
-import Engine.GameEngine;
-import Objects.Player;
-import com.github.TeamCarter.Frame.Canvas;
-import com.github.TeamCarter.Frame.Controls;
+import org.academiadecodigo.hackstreetboys.Engine.GameEngine;
 
 public class Main {
 

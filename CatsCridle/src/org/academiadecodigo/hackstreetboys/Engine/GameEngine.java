@@ -1,16 +1,13 @@
-package Engine;
+package org.academiadecodigo.hackstreetboys.Engine;
 
-import Objects.Enemy;
-import Objects.Player;
+import org.academiadecodigo.hackstreetboys.Objects.Enemy;
+import org.academiadecodigo.hackstreetboys.Objects.Player;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
-import com.github.TeamCarter.Frame.Controls;
-import com.github.TeamCarter.Frame.Canvas;
-import org.academiademiadecodigo.hackstreetboys.teamcarter.Audio;
-import org.academiademiadecodigo.hackstreetboys.teamcarter.Music;
+import org.academiadecodigo.hackstreetboys.Frame.Controls;
+import org.academiadecodigo.hackstreetboys.Frame.Canvas;
+import org.academiadecodigo.hackstreetboys.Audio.Audio;
 
-import java.awt.*;
-
-import static Objects.Menu.PADDING;
+import static org.academiadecodigo.hackstreetboys.Objects.Menu.PADDING;
 import static java.awt.image.ImageObserver.HEIGHT;
 import static java.awt.image.ImageObserver.WIDTH;
 

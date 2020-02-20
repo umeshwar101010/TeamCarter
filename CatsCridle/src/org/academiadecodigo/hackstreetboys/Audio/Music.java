@@ -1,4 +1,4 @@
-package org.academiademiadecodigo.hackstreetboys.teamcarter;
+package org.academiadecodigo.hackstreetboys.Audio;
 
 
 import javax.sound.sampled.*;
@@ -9,7 +9,7 @@ import java.util.Objects;
 /**Original test for multi tracks NOT WORKING!!*/
 
 public enum Music {
-    TRACK("/resources/Audio/bb4.wav");
+    TRACK("/resources/hackstreetboys.Audio/bb4.wav");
 
 
 

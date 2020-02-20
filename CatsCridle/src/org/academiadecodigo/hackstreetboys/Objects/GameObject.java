@@ -1,5 +1,7 @@
-package Objects;
+package org.academiadecodigo.hackstreetboys.Objects;
 
+
+import org.academiadecodigo.hackstreetboys.Engine.Position;
 
 public abstract class GameObject {
     public  int WIDTH=423;
@@ -8,7 +10,7 @@ public abstract class GameObject {
     protected static final int MOVEMENT = 10;
 
 
-    com.github.TeamCarter.Engine.Position position;
+    Position position;
 
 
     public void move() {
