@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3249ee97-082e-40ef-a6b7-664f09877d57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+    <list default="true" id="29523530-88ad-4103-84af-967792d57b8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/CorrectDestination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/DarkDestination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObjectTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Obstacles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatsCridle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatsCridle.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/GameEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/CorrectDestination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/DarkDestination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/GameObjectTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Obstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Objects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,14 +24,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Y2UdTYBTcG5km0llVWal0FfDJ2" />
+  <component name="ProjectId" id="1Y5JC2Tiv6GwfFPTBqYpbq6WQUY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -78,12 +62,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3249ee97-082e-40ef-a6b7-664f09877d57" name="Default Changelist" comment="" />
-      <created>1582140269496</created>
+      <changelist id="29523530-88ad-4103-84af-967792d57b8b" name="Default Changelist" comment="" />
+      <created>1582226390665</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582140269496</updated>
-      <workItem from="1582140272400" duration="12705000" />
+      <updated>1582226390665</updated>
+      <workItem from="1582226394156" duration="9286000" />
     </task>
     <servers />
   </component>
