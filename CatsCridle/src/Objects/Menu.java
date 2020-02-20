@@ -8,7 +8,7 @@ public class Menu {
     public static final int PADDING = 10;
 
     public Menu() {
-        picture = new Picture(PADDING, PADDING, "");
+        picture = new Picture(PADDING, PADDING, "resources/Images/Canvas/Kandinsky_menu.jpg");
         picture.draw();
     }
 
