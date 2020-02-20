@@ -1,4 +1,4 @@
-package Objects;
+package org.academiadecodigo.hackstreetboys.Objects;
 
 
 public abstract class GameObject {

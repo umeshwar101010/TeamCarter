@@ -1,13 +1,9 @@
-package Objects;
+package org.academiadecodigo.hackstreetboys.Objects;
 
-import Engine.GameEngine;
+import org.academiadecodigo.hackstreetboys.Engine.GameEngine;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
-import java.awt.*;
-
-import static Objects.Menu.PADDING;
-import static java.awt.image.ImageObserver.HEIGHT;
-import static java.awt.image.ImageObserver.WIDTH;
+import static org.academiadecodigo.hackstreetboys.Objects.Menu.PADDING;
 
 public class Player extends GameObject{
 

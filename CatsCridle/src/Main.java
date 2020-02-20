@@ -1,7 +1,4 @@
-import Engine.GameEngine;
-import Objects.Player;
-import com.github.TeamCarter.Frame.Canvas;
-import com.github.TeamCarter.Frame.Controls;
+import org.academiadecodigo.hackstreetboys.Engine.GameEngine;
 
 public class Main {
 
@@ -20,7 +17,7 @@ public class Main {
         //Player player = new Player();
         //player.spawn();
 
-        //Controls controls = new Controls();
+        //org.academiadecodigo.hackstreetboys.Controls.Controls controls = new org.academiadecodigo.hackstreetboys.Controls.Controls();
         //controls.setPlayerObject(player);
 
         //controls.init();

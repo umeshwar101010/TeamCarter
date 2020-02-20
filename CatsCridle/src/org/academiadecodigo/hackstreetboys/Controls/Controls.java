@@ -1,6 +1,6 @@
-package com.github.TeamCarter.Frame;
+package org.academiadecodigo.hackstreetboys.Controls;
 
-import Objects.Player;
+import org.academiadecodigo.hackstreetboys.Objects.Player;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
