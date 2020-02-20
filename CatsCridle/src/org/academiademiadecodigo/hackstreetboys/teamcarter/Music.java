@@ -9,7 +9,7 @@ import java.util.Objects;
 /**Original test for multi tracks NOT WORKING!!*/
 
 public enum Music {
-    TRACK("resources/Audio/cb.wav");
+    TRACK("/resources/Audio/cb.wav");
 
 
 

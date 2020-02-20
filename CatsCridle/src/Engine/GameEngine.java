@@ -6,6 +6,7 @@ import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import com.github.TeamCarter.Frame.Controls;
 import com.github.TeamCarter.Frame.Canvas;
 import org.academiademiadecodigo.hackstreetboys.teamcarter.Audio;
+import org.academiademiadecodigo.hackstreetboys.teamcarter.Music;
 
 import java.awt.*;
 
