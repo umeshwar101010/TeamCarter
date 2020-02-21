@@ -1,5 +1,6 @@
 package org.academiadecodigo.hackstreetboys.Engine;
 
+import org.academiadecodigo.hackstreetboys.Audio.Audio;
 import org.academiadecodigo.hackstreetboys.Objects.Enemy;
 import org.academiadecodigo.hackstreetboys.Objects.Player;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
@@ -19,6 +20,7 @@ public class GameEngine {
     private boolean levelTwoOn;
 
     private Enemy enemy;
+    private Audio audio;
 
     public GameEngine() {
         //levelOnCanvas();
@@ -33,7 +35,6 @@ public class GameEngine {
         levelOneCanvas();
         player = new Player();
         player.spawn();
-
         enemy = new Enemy();
         enemy.spawn();
         //enemy.move();
@@ -47,6 +48,8 @@ public class GameEngine {
     public void levelOneCanvas() {
         Canvas canvas= new Canvas(WIDTH, HEIGHT);
         canvas.makeCanvas();
+
+
     }
     public void start() {
 
@@ -57,6 +60,7 @@ public class GameEngine {
                 rectangle.fill();                                                           
             case 1:
                 startLevelOne();
+
             case 2:
                 Rectangle rectangle2 = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
                 rectangle2.draw();

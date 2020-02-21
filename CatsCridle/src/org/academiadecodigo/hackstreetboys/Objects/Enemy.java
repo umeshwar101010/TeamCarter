@@ -12,9 +12,9 @@ public class Enemy extends GameObject {
 
 
     private int up;
-    private int down = (HEIGHT-2* PADDING -ENEMY_CELL_SIZE )/ MOVEMENT;
+    private int down = (HEIGHT-2* PADDING -PLAYER_CELL_SIZE)/ MOVEMENT;
     private int left;
-    private int right = (WIDTH-2* PADDING -ENEMY_CELL_SIZE )/ 10;
+    private int right = (WIDTH-2* PADDING -PLAYER_CELL_SIZE )/ 10;
 
     public void spawn() {
         enemyObject = new Ellipse(50, 50, 50, 50);
