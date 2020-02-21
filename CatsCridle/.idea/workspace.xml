@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd8f4353-fd4f-4401-a82d-1bb5909625ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/CorrectDestination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/CorrectDestination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/DarkDestination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/DarkDestination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObjectTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObjectTypes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Obstacles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Obstacles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/SimpleGfxGrid/SimpleGfxGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/SimpleGfxGrid/SimpleGfxGrid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/PlayerMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/PlayerMaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Controls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Controls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiademiadecodigo/hackstreetboys/teamcarter/MusicTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="cd8f4353-fd4f-4401-a82d-1bb5909625ab" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,21 +86,21 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="721" y="219" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582188195563" />
-    <state width="1677" height="273" key="GridCell.Tab.0.bottom" timestamp="1582188256372">
+    <state width="661" height="273" key="GridCell.Tab.0.bottom" timestamp="1582188523310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1677" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582188256372" />
-    <state width="1677" height="273" key="GridCell.Tab.0.center" timestamp="1582188256372">
+    <state width="661" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582188523310" />
+    <state width="661" height="273" key="GridCell.Tab.0.center" timestamp="1582188523310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1677" height="273" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582188256372" />
-    <state width="1677" height="273" key="GridCell.Tab.0.left" timestamp="1582188256372">
+    <state width="661" height="273" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582188523310" />
+    <state width="661" height="273" key="GridCell.Tab.0.left" timestamp="1582188523310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1677" height="273" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582188256372" />
-    <state width="1677" height="273" key="GridCell.Tab.0.right" timestamp="1582188256372">
+    <state width="661" height="273" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582188523310" />
+    <state width="661" height="273" key="GridCell.Tab.0.right" timestamp="1582188523310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1677" height="273" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582188256372" />
+    <state width="661" height="273" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582188523310" />
   </component>
 </project>
