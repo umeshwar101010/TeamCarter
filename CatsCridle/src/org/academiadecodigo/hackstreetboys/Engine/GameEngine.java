@@ -37,17 +37,20 @@ public class GameEngine {
         player.spawn();
         enemy = new Enemy();
         enemy.spawn();
+
         //enemy.move();
 
         Controls controls = new Controls();
 
         controls.setPlayerObject(player);
         controls.init();
+
     }
 
     public void levelOneCanvas() {
         Canvas canvas= new Canvas(WIDTH, HEIGHT);
         canvas.makeCanvas();
+
 
 
     }

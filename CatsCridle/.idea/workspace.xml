@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a221131-e7eb-4088-8699-1c7011d74803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/Sound/bb4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Audio/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Audio/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Frame/Controls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatsCridle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatsCridle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/PlayerMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Audio/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Audio/Audio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/GameEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/PlayerMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/PlayerMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Objects/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Objects/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Objects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Objects/GameObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,22 +104,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1865" height="270" key="GridCell.Tab.0.bottom" timestamp="1582276593844">
+    <state x="656" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582278044697">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582276593844" />
-    <state width="1865" height="270" key="GridCell.Tab.0.center" timestamp="1582276593844">
+    <state x="656" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582278044697" />
+    <state width="1865" height="270" key="GridCell.Tab.0.bottom" timestamp="1582278085605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582276593844" />
-    <state width="1865" height="270" key="GridCell.Tab.0.left" timestamp="1582276593844">
+    <state width="1865" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582278085605" />
+    <state width="1865" height="270" key="GridCell.Tab.0.center" timestamp="1582278085601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582276593844" />
-    <state width="1865" height="270" key="GridCell.Tab.0.right" timestamp="1582276593844">
+    <state width="1865" height="270" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582278085601" />
+    <state width="1865" height="270" key="GridCell.Tab.0.left" timestamp="1582278085601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582276593844" />
+    <state width="1865" height="270" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582278085601" />
+    <state width="1865" height="270" key="GridCell.Tab.0.right" timestamp="1582278085605">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="270" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582278085605" />
     <state x="184" y="87" key="MergeDialog" timestamp="1582275715994">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
