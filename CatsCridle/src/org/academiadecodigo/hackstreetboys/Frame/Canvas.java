@@ -29,7 +29,7 @@ public  class Canvas {
         switch(level) {
 
             case 0:
-                 canvas = new Picture(PADDING, PADDING, "resources/Images/Canvas/Kandinsky_menu.jpg");
+                canvas = new Picture(PADDING, PADDING, "resources/Images/Canvas/Kandinsky_menu.jpg");
                 canvas.draw();
                 break;
             case 1:

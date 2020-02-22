@@ -13,13 +13,13 @@ import static java.awt.image.ImageObserver.WIDTH;
 
 public class GameEngine {
 
-    private int level = 1;
+    private int level;
     private Player player;
     private boolean levelOneOn = true;
     private boolean levelTwoOn;
     private boolean levelOneComplete = false;
     private Enemy enemy;
-    private Canvas canvas;
+
 
 
     public GameEngine() {
@@ -30,6 +30,10 @@ public class GameEngine {
 
     public void init() {
         //Player player = new Player();
+        //Game start menu first case in switch from Canvas.class
+        // TODO: Use the Start method inside the method init;
+
+
         if (!levelOneComplete){
             levelOneCanvas();
             enemy = new Enemy();
@@ -55,7 +59,8 @@ public class GameEngine {
     }
 
   public void levelOneCanvas() {
-        Canvas.makeCanvas(1);
+       //level set fom Canvas.class Switch case
+        Canvas.makeCanvas(0); //level set from makeCanvas() in Canvas.class
     }
 
 
@@ -66,29 +71,33 @@ public class GameEngine {
 
 
         switch (level) {
-            case 1:
+            case 0:
                 Canvas.makeCanvas(level);
                 init();
 
                 Rectangle rectangle = new Rectangle(10, 10, WIDTH, HEIGHT);
                 rectangle.draw();
-                rectangle.fill();
+                //rectangle.fill();
 
-            case 2:
+            case 1:
                 Canvas.makeCanvas(level);
                 init();
                 Rectangle rectangle1 = new Rectangle(10, 10, WIDTH, HEIGHT);
                 rectangle1.draw();
-                rectangle1.fill();
-            case 3:
+                //rectangle1.fill();
+            case 2:
                 Canvas.makeCanvas(level);
                 init();
                 Rectangle rectangle2 = new Rectangle(10, 10, WIDTH, HEIGHT);
                 rectangle2.draw();
-                rectangle2.fill();
+                //rectangle2.fill();
                 break;
         }
         moveGameObjects();
+    }
+    /** Setter for level*/
+    public void setLevel(int level) {
+        this.level = level;
     }
 
     public void moveGameObjects() {

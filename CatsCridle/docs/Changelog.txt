@@ -1,0 +1,19 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [CatsCridle](https://github.com/umeshwar101010/TeamCarter.git).
+
+## [Unreleased]
+##branch audio/menu
+
+## [1.0.0] - 2020-02-22
+### Added
+
+## Changed
+-GameEngine.class: make the game start in the menu, switch case of Canvas.class sets the picture and it also set the
+rectangle from the GameEngine.class
+-GameEngine.Class: removed the fill(); from Rectangle.
+-GameEngine.Class: added Todo in this class
+-GameEngine.Class: created a setter for setting the level, probably we wont
+need this...
