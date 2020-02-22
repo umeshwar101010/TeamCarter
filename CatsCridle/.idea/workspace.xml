@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9358303d-2432-4056-b2e0-8a47e6fb5e14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Images/Canvas/Kandinsky_menu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Sound/bb4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Audio/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Audio/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Controls/Controls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/PlayerMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/SimpleGfxGrid/SimpleGfxGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatsCridle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatsCridle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lanterna-2.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/CatsCridle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/SimpleGfxGrid/SimpleGfxGrid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Controls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/out/production/CatsCridle/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/out/production/CatsCridle/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/out/production/CatsCridle/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/out/production/CatsCridle/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/out/production/CatsCridle/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/out/production/CatsCridle/CatsCridle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatsCridle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/CollisionDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/GameEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/LevelsObstacles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/GameObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleGfxGrid/SimpleGfxGrid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Frame/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Frame/Controls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/CatsCridle/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/CatsCridle/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/CatsCridle/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/CatsCridle/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/CatsCridle/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/CatsCridle/CatsCridle.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582371672201</updated>
       <workItem from="1582371675187" duration="17136000" />
+      <workItem from="1582393366773" duration="4000" />
     </task>
     <servers />
   </component>
