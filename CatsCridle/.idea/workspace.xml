@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29523530-88ad-4103-84af-967792d57b8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatsCridle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatsCridle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Player.java" afterDir="false" />
-    </list>
+    <list default="true" id="29523530-88ad-4103-84af-967792d57b8b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582226390665</updated>
-      <workItem from="1582226394156" duration="9286000" />
+      <workItem from="1582226394156" duration="9473000" />
     </task>
     <servers />
   </component>
