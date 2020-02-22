@@ -1,5 +1,6 @@
 package com.github.TeamCarter.Frame;
 
+import Engine.GameEngine;
 import Objects.Player;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
@@ -7,7 +8,8 @@ import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 
 public class Controls implements KeyboardHandler {
-    private Player playerObject;
+    private Player player;
+    private GameEngine gameEngine;
 
     public void init() {
         Keyboard keyboard = new Keyboard(this);
@@ -39,28 +41,38 @@ public class Controls implements KeyboardHandler {
         downPressed.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
 
         keyboard.addEventListener(downPressed);//start listening to that event
+
+
+        KeyboardEvent play = new KeyboardEvent();
+                play.setKey(KeyboardEvent.KEY_P);
+        play.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
+
+                keyboard.addEventListener(play);
     }
 
     @Override
     public void keyPressed(KeyboardEvent keyboardEvent) {
         switch (keyboardEvent.getKey()) {
 
+
             case KeyboardEvent.KEY_RIGHT:
-                playerObject.moveRight();
+                player.moveRight();
                 break;
 
 
             case KeyboardEvent.KEY_LEFT:
-                playerObject.moveLeft();
+                player.moveLeft();
                 break;
 
             case KeyboardEvent.KEY_UP:
-                playerObject.moveUp();
+                player.moveUp();
                 break;
 
             case KeyboardEvent.KEY_DOWN:
-                playerObject.moveDown();
+                player.moveDown();
                 break;
+
+
         }
     }
 
@@ -69,8 +81,8 @@ public class Controls implements KeyboardHandler {
 
     }
 
-    public void setPlayerObject(Player playerObject) {
-        this.playerObject = playerObject;
+    public void setPlayer(Player player) {
+        this.player = player;
     }
 }
 

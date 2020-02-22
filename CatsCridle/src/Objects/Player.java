@@ -14,28 +14,39 @@ public class Player extends GameObject{
     private String name;
 
     private Picture playerObject;
-    //private Rectangle field;
+    private boolean dead=false;
+
     private static final int PLAYER_CELL_SIZE = 20;
     private int up;
     private int down = (HEIGHT-2* PADDING -PLAYER_CELL_SIZE ) / MOVEMENT;
     private int left;
     private int right = (WIDTH-2* PADDING -PLAYER_CELL_SIZE )/ MOVEMENT;
     private boolean reachedObjective;
-    //private int width = 390 / 10;
-    //private int heigth = 820;
+
     private GameEngine gameEngine;
 
-   // protected CollisionDetector collisionDetector;
-    //protected CanvasDirection currentDirection;
+    private int enemyUp;
+    private int enemyLeft;
 
 
 
+    public Player(Enemy enemy){
 
-    public void checkDestination(){
-        if(up == 75 && left == 20){
-            System.out.println("You've arrived");
-            reachedObjective = true;
-        }
+        this.enemyUp=enemy.getUp();
+        this.enemyLeft=enemy.getLeft();
+
+
+
+    }
+
+
+     public void checkCollision(){
+
+       if(this.enemyUp==this.up &&this.enemyLeft==this.left  ){
+            dead=true;
+           System.out.println("HURRAY.............. ");
+       }
+
     }
 
     public void spawn(){
@@ -44,48 +55,62 @@ public class Player extends GameObject{
     }
 
     public void moveRight() {
-        if(right >= 0) {
+        checkCollision();
+        if(dead){
+            return;
+        } else if (right >= 0) {
             playerObject.translate(MOVEMENT, 0);
             left++;
             right--;
-            System.out.println("right: " + right);
+            System.out.println("Player up = "+this.up + "   left = "+ this.left+"  down = "+this.down + "   right = "+ this.right);
             //System.out.println("destination: " + reachedObjective);
-            checkDestination();
+            //checkCollision();
             //System.out.println("level: " + gameEngine.isLevelOn());
         }
     }
 
     public void moveLeft() {
-        if(left >= 0) {
+        checkCollision();
+        if(dead){
+            return;
+        } else if(left >= 0) {
             playerObject.translate(-MOVEMENT, 0);
             right++;
             left--;
-            System.out.println("left: " + left);
-            checkDestination();
+            System.out.println("Player up = "+this.up + "   left = "+ this.left+"  down = "+this.down + "   right = "+ this.right);
+            //checkCollision();
             //checkDestination();
             //System.out.println("level: " + gameEngine.isLevelOn());
         }
     }
 
     public void moveUp() {
-        if(up >= 0) {
+        checkCollision();
+        if(dead){
+            return;
+        } else if(up >= 0) {
             playerObject.translate(0,-MOVEMENT);
             down++;
             up--;
-            System.out.println("up: " + up);
-            checkDestination();
+            System.out.println("Player up = "+this.up + "   left = "+ this.left+"  down = "+this.down + "   right = "+ this.right);
+            //System.out.println("\n");
+            //checkCollision();
             //checkDestination();
             //System.out.println("level: " + gameEngine.isLevelOn());
         }
     }
 
     public void moveDown() {
-        if(down >= 0) {
+        checkCollision();
+        if(dead){
+            return;
+        } else if(down >= 0) {
             playerObject.translate(0,+MOVEMENT);
             up++;
             down--;
-            System.out.println("down: " + down);
-            checkDestination();
+            System.out.println("Player up = "+this.up + "   left = "+ this.left+"  down = "+this.down + "   right = "+ this.right);
+            //System.out.println("\n");
+            //checkCollision();
             //checkDestination();
             //System.out.println("level: " + gameEngine.isLevelOn());
         }
@@ -100,11 +125,23 @@ public class Player extends GameObject{
         return left;
     }
 
+    public int getDown() {
+        return down;
+    }
+
+    public int getRight() {
+        return right;
+    }
+
     public void setReachedObjective(boolean reachedObjective) {
         this.reachedObjective = true;
     }
 
     public boolean isReachedObjective() {
         return reachedObjective;
+    }
+
+    public boolean isDead() {
+        return dead;
     }
 }

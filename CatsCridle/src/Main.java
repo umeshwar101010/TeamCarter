@@ -17,14 +17,7 @@ public class Main {
         //engine.init();
         engine.start();
 
-        //Player player = new Player();
-        //player.spawn();
 
-        //Controls controls = new Controls();
-        //controls.setPlayerObject(player);
-
-        //controls.init();
-        //player.checkDestination();
 
 
     }

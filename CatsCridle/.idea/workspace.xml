@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f3d6be2-48b2-46e4-8a82-5ad834966551" name="Default Changelist" comment="" />
+    <list default="true" id="0f3d6be2-48b2-46e4-8a82-5ad834966551" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Controls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Controls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/GameEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Objects/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Objects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Objects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Controls.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,6 +24,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="checkDestination" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Y4yt2aj5c2B2IKNlrFiwgsJFZg" />
@@ -53,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582216371231</updated>
-      <workItem from="1582216372495" duration="6345000" />
+      <workItem from="1582216372495" duration="37006000" />
     </task>
     <servers />
   </component>
