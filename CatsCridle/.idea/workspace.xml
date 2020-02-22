@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9358303d-2432-4056-b2e0-8a47e6fb5e14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatsCridle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatsCridle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/PlayerMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/GameEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/PlayerMaker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Objects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Canvas.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582371672201</updated>
-      <workItem from="1582371675187" duration="9014000" />
+      <workItem from="1582371675187" duration="17136000" />
     </task>
     <servers />
   </component>
