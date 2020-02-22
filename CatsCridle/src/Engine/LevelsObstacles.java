@@ -1,125 +1,10 @@
-package Objects;
+package Engine;
 
-import Engine.GameEngine;
-import Engine.LevelsObstacles;
-import org.academiadecodigo.simplegraphics.pictures.Picture;
+public enum LevelsObstacles {
+    MENU(new int[][]{{10},
+            {0}}),
 
-
-
-public class Player extends GameObject{
-    private String name;
-
-    private Picture playerObject;
-    private static final int PLAYER_CELL_SIZE = 20;
-    private int up;
-    private int down = 820 / 10;
-    private int left;
-    private int right = 390 / 10;
-    private boolean reachedObjective;
-
-    private GameEngine gameEngine;
-
-    private LevelsObstacles[][] obstacles;
-    // protected CollisionDetector collisionDetector;
-    //protected CanvasDirection currentDirection;
-
-    public boolean checkDestinationLevel1(){
-        if(up == 75 && left == 20){
-            System.out.println("You've arrived");
-            return reachedObjective = true;
-        }
-        return reachedObjective;
-    }
-
-    public void spawn(){
-        playerObject = new Picture(PLAYER_CELL_SIZE, PLAYER_CELL_SIZE,"resources/Images/PlayerObj/playerobj.png");
-        playerObject.draw();
-    }
-
-    public void moveRight() {
-        if(right > 0 && OBSTACLES[up][left] == 0) {
-            playerObject.translate(10, 0);
-            left++;
-            right--;
-            System.out.println("right: " + right);
-            //System.out.println("destination: " + reachedObjective);
-            checkDestinationLevel1();
-            //System.out.println("level: " + gameEngine.isLevelOn());
-
-        } else if(OBSTACLES[up][left] == 1){
-            playerObject.translate(0, -10);
-            down++;
-            up--;
-        }
-
-    }
-
-    public void moveLeft() {
-        if(left > 0 && OBSTACLES[up][left] == 0) {
-            playerObject.translate(-10, 0);
-            right++;
-            left--;
-            System.out.println("left: " + left);
-            checkDestinationLevel1();
-            //checkDestination();
-            //System.out.println("level: " + gameEngine.isLevelOn());
-        } else if (OBSTACLES[up][left] == 1) {
-            playerObject.translate(0, 10);
-            up++;
-            down--;
-
-        }
-    }
-
-    public void moveUp() {
-        if(up > 0 && OBSTACLES[up][left] == 0) {
-            playerObject.translate(0,-10);
-            down++;
-            up--;
-            System.out.println("up: " + up);
-            checkDestinationLevel1();
-
-        } else if (OBSTACLES[up][left] == 2) {
-            playerObject.translate(0, 10);
-            down--;
-            up++;
-
-        }
-    }
-
-    public void moveDown() {
-        if(down > 0 && OBSTACLES[up][left] == 0) {
-            playerObject.translate(0,10);
-            up++;
-            down--;
-            System.out.println("down: " + down);
-            checkDestinationLevel1();
-            //checkDestination();
-            //System.out.println("level: " + gameEngine.isLevelOn());
-        } else if (OBSTACLES[up][left] == 2) {
-            playerObject.translate(0, -10);
-            down++;
-            up--;
-        }
-    }
-
-    public int getUp() {
-        return up;
-    }
-
-    public int getLeft() {
-        return left;
-    }
-
-    public void setReachedObjective(boolean reachedObjective) {
-        this.reachedObjective = true;
-    }
-
-    public boolean isReachedObjective() {
-        return reachedObjective;
-    }
-
-    public static final int[][] OBSTACLES = {
+    LEVEL_1(new int[][]{
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -203,7 +88,63 @@ public class Player extends GameObject{
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+    }),
+    LEVEL_2(new int[][]{
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
+            {2, 2, 0, 0, 2, 2, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2},
+            {2, 4, 1, 2, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 2, 0, 2, 2},
+            {2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 2, 0, 2, 2, 2, 0, 0, 2, 2, 0, 2, 0, 0, 0, 2, 0, 2},
+            {2, 2, 0, 0, 0, 2, 0, 2, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 3, 2},
+            {2, 2, 0, 2, 2, 2, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 2},
+            {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
+            {2, 4, 1, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 2},
+            {2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 2, 0, 2, 2, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 2, 2},
+            {2, 0, 0, 0, 2, 0, 0, 2, 0, 2, 0, 0, 0, 2, 2, 0, 2, 2, 0, 0, 0, 2, 2, 0, 0, 2, 0, 0, 3, 2},
+            {2, 2, 0, 2, 2, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 2, 2},
+            {2, 0, 0, 0, 0, 2, 2, 2, 0, 0, 2, 0, 2, 0, 2, 0, 0, 0, 2, 0, 2, 0, 2, 0, 2, 0, 0, 0, 0, 2},
+            {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},}),
 
-    };
+    LEVEL_3((new int[][]{
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
+            {2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 0, 0, 0, 2, 2, 0, 2},
+            {2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 3, 2},
+            {2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 2, 2, 2, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 2},
+            {2, 0, 2, 2, 0, 2, 2, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0, 2},
+            {2, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 2, 2, 0, 2, 0, 0, 2, 2, 2, 0, 0, 0, 2, 2, 0, 2},
+            {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
+            {2, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 2},
+            {2, 4, 1, 2, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 2, 0, 0, 2, 0, 2, 0, 0, 2, 0, 2, 0, 2, 2},
+            {2, 2, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2, 2, 0, 0, 3, 2},
+            {2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2},
+            {2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 2, 2},
+            {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
+
+    })),
+
+    FINAL(new int[][]{{11},
+            {0}});
+
+    private int[][] level;
+
+    LevelsObstacles(int[][] level) {
+        this.level = level;
+    }
+
+    public int[][] getLevel() {
+        return level;
+    }
+
+
+
 
 }
+

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29523530-88ad-4103-84af-967792d57b8b" name="Default Changelist" comment="" />
+    <list default="true" id="9358303d-2432-4056-b2e0-8a47e6fb5e14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatsCridle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatsCridle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Engine/GameEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/PlayerMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/GameEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/PlayerMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Objects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/TeamCarter/Frame/Canvas.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Y5JC2Tiv6GwfFPTBqYpbq6WQUY" />
+  <component name="ProjectId" id="1YA3fFkLxIqdEK6DtgZxEbwc6iP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,12 +67,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29523530-88ad-4103-84af-967792d57b8b" name="Default Changelist" comment="" />
-      <created>1582226390665</created>
+      <changelist id="9358303d-2432-4056-b2e0-8a47e6fb5e14" name="Default Changelist" comment="" />
+      <created>1582371672201</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582226390665</updated>
-      <workItem from="1582226394156" duration="9473000" />
+      <updated>1582371672201</updated>
+      <workItem from="1582371675187" duration="9014000" />
     </task>
     <servers />
   </component>

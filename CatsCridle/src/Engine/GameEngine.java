@@ -10,11 +10,11 @@ import java.awt.*;
 
 public class GameEngine {
 
-    private int obstacle = 1;
-    private int level = 0;
+    private int currentLevel = 1;
     private Player player;
     private boolean levelOneOn = true;
     private boolean levelTwoOn;
+    private boolean levelOneComplete = false;
 
     private Enemy enemy;
 
@@ -26,32 +26,39 @@ public class GameEngine {
 
     public void init() {
         //Player player = new Player();
-        levelOneCanvas();
-        player = new Player();
-        player.spawn();
+        if (!levelOneComplete){
+            levelOneCanvas();
+            player = new Player();
+            player.spawn();
 
-        enemy = new Enemy();
-        enemy.spawn();
-        //enemy.move();
+            enemy = new Enemy();
+            enemy.spawn();
+            //enemy.move();
 
-        Controls controls = new Controls();
+            Controls controls = new Controls();
 
-        controls.setPlayerObject(player);
-        controls.init();
+            controls.setPlayerObject(player);
+            controls.init();
+        }
+
+
     }
 
-    public void levelOneCanvas() {
+  public void levelOneCanvas() {
         Canvas canvas= new Canvas(423, 850);
         canvas.makeCanvas();
     }
+
+
     public void start() {
 
-        switch (level) {
+        switch (currentLevel) {
             case 0:
+//-------------------------MENU-------------------------------
+            case 1:
                 Rectangle rectangle = new Rectangle(10, 10, 423, 850);
                 rectangle.draw();
-                rectangle.fill();                                                           
-            case 1:
+                rectangle.fill();
                 startLevelOne();
             case 2:
                 Rectangle rectangle2 = new Rectangle(10, 10, 423, 850);
@@ -59,16 +66,7 @@ public class GameEngine {
                 rectangle2.fill();
                 break;
         }
-        /*
-        if (levelOneOn) {
-            startLevelOne();
-        } else if (levelTwoOn) {
-            Rectangle rectangle = new Rectangle(10, 10, 423, 850);
-            rectangle.draw();
-            rectangle.fill();
-        }
 
-         */
     }
 
     public void startLevelOne(){
@@ -81,44 +79,22 @@ public class GameEngine {
         }
         levelOneOn = false;
         levelTwoOn = true;
-        level = 2;
-        System.out.println("hiiiiii");
+        currentLevel = 2;
         Rectangle c = new Rectangle(10, 10, 89, 90);
         c.draw();
         c.fill();
     }
-/*
-    public void checkDestination(){
-        if(player.getUp() == 75 && player.getLeft() == 20){
-            System.out.println("You've arrived");
-            player.setReachedObjective(true);
-        }
-    }
-
- */
-
-
-
 
     public boolean isLevelOneOn() {
         return levelOneOn;
     }
 
-    public int getObstacle() {
-        return obstacle;
-    }
-
     public int getLevel() {
-        return level;
-    }
-
-    public void setObstacle(int obstacle) {
-        this.obstacle = obstacle;
+        return currentLevel;
     }
 
     public void setLevel(int level) {
-        this.level = level;
+        this.currentLevel = level;
     }
-
 
 }
