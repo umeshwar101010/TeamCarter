@@ -8,6 +8,8 @@ public abstract class GameObject {
     public  int HEIGHT=850;
     public  int PLAYER_CELL_SIZE = 20;
     protected static final int MOVEMENT = 10;
+    protected static final int PADDING = 10;
+
 
 
 

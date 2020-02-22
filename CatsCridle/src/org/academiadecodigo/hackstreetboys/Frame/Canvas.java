@@ -1,40 +1,47 @@
 package org.academiadecodigo.hackstreetboys.Frame;
-
+import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
-
+import org.academiadecodigo.hackstreetboys.GameObjects.GameObject;
 
 public  class Canvas {
 
-    public static final int PADDING = 10;
-
-    private int cellSize = 15;
+    private static double PADDING = 10;
     private int width ;
     private int height;
 
+
+
     private Rectangle field;
 
-    public Canvas(int width, int height){
+
+
+  /*  public Canvas(int width, int height, int level){
         this.width = width;
         this.height = height;
+        makeCanvas(level);
+    }
+*/
+
+    public static void makeCanvas(int level) {
+        Picture canvas;
+        switch(level) {
+
+            case 0:
+                 canvas = new Picture(PADDING, PADDING, "resources/Images/Canvas/Kandinsky_menu.jpg");
+                canvas.draw();
+                break;
+            case 1:
+                canvas = new Picture(PADDING, PADDING, "Images/Canvas/Wassily-Kandinsky-Softened-Construction.jpg");
+                canvas.draw();
+                break;
+
+            default:
+                canvas = new Picture(PADDING, PADDING, "resources/Images/Canvas/Wassily-Kandinsky-Softened-Construction.jpg");
+                canvas.draw();
+        }
     }
 
-    public void makeCanvas() {
-        Picture canvas = new Picture(PADDING, PADDING, "resources/Images/Canvas/Wassily-Kandinsky-Softened-Construction.jpg");
-        //Rectangle rectangle = new Rectangle(PADDING,PADDING, width, height);
-        //this.field = new Rectangle(PADDING,PADDING, cols * cellSize, rows * cellSize);
-        canvas.draw();
-        //rectangle.fill();
-        //rectangle.draw();
-    }
-
-    public int getWidth() {
-        return this.width;
-    }
-
-    public int getHeight() {
-        return this.height;
-    }
 
 }

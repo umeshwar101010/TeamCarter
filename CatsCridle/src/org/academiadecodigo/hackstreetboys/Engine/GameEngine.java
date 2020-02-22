@@ -8,20 +8,19 @@ import org.academiadecodigo.hackstreetboys.Controls.Controls;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import org.academiadecodigo.hackstreetboys.Frame.Canvas;
 
-
-
-import java.awt.*;
+import static java.awt.image.ImageObserver.HEIGHT;
+import static java.awt.image.ImageObserver.WIDTH;
 
 public class GameEngine {
 
-    private int currentLevel = 1;
+    private int level = 1;
     private Player player;
     private boolean levelOneOn = true;
     private boolean levelTwoOn;
     private boolean levelOneComplete = false;
-
-
     private Enemy enemy;
+    private Canvas canvas;
+
 
     public GameEngine() {
         //levelOnCanvas();
@@ -33,11 +32,12 @@ public class GameEngine {
         //Player player = new Player();
         if (!levelOneComplete){
             levelOneCanvas();
-            player = new Player();
-            player.spawn();
-
             enemy = new Enemy();
             enemy.spawn();
+            player = new Player(enemy);
+            player.spawn();
+
+
             //enemy.move();
 
             Controls controls = new Controls();
@@ -55,56 +55,158 @@ public class GameEngine {
     }
 
   public void levelOneCanvas() {
-        Canvas canvas= new Canvas(423, 850);
-        canvas.makeCanvas();
+        Canvas.makeCanvas(1);
     }
 
 
     public void start() {
 
-        switch (currentLevel) {
-            case 0:
-//-------------------------MENU-------------------------------
+        Canvas.makeCanvas(level);
+        init();
+
+
+        switch (level) {
             case 1:
-                Rectangle rectangle = new Rectangle(10, 10, 423, 850);
+                Canvas.makeCanvas(level);
+                init();
+
+                Rectangle rectangle = new Rectangle(10, 10, WIDTH, HEIGHT);
                 rectangle.draw();
                 rectangle.fill();
-                startLevelOne();
+
             case 2:
-                Rectangle rectangle2 = new Rectangle(10, 10, 423, 850);
+                Canvas.makeCanvas(level);
+                init();
+                Rectangle rectangle1 = new Rectangle(10, 10, WIDTH, HEIGHT);
+                rectangle1.draw();
+                rectangle1.fill();
+            case 3:
+                Canvas.makeCanvas(level);
+                init();
+                Rectangle rectangle2 = new Rectangle(10, 10, WIDTH, HEIGHT);
                 rectangle2.draw();
                 rectangle2.fill();
                 break;
         }
-
+        moveGameObjects();
     }
 
-    public void startLevelOne(){
-        init();
-        while(!player.isReachedObjective()) {
-            if(levelOneOn) {
-                enemy.move();
-                System.out.println(player.getUp() + " " + player.getLeft() + " !");;
-            }
+    public void moveGameObjects() {
+
+        while (!player.isReachedObjective() || !checkCollision()) {
+            checkCollision();
+
+
+            enemy.move();
+            //System.out.println(player.getUp() + " " + player.getLeft() + " !");
+
+
+
         }
+
+
+    }
+    public boolean checker() {
+        if (player.isDead()) {
+            return true;
+        }
+        if ((player.getUp() == enemy.getUp() || player.getUp() == (enemy.getUp() + 2) || player.getUp() == (enemy.getUp() - 2)) &&
+                (player.getLeft() == enemy.getLeft() || player.getLeft() == (enemy.getLeft() + 2) || player.getLeft() == (enemy.getLeft() - 2))) {
+            System.out.println("same coordinates");
+            return true;
+        }
+        return false;
+    }
+
+    /*
+    public boolean checker() {
+        if (player.isDead()) {
+            return true;
+        }
+        if ((player.getUp() == enemy.getUp() || player.getUp() == (enemy.getUp() + 2) || player.getUp() == (enemy.getUp() - 2)) &&
+                (player.getLeft() == enemy.getLeft() || player.getLeft() == (enemy.getLeft() + 2) || player.getLeft() == (enemy.getLeft() - 2))) {
+            System.out.println("same coordinates");
+            return true;
+        }
+        return false;
+    }*/
+
+    /*public boolean checker (){
+      if(player.getUp() == enemy.getUp() && player.getLeft()==enemy.getLeft()){
+          System.out.println("same coordinates");
+          return true;
+      }
+      return false;
+    }*/
+    /*public boolean checker (){
+        int up= (player.getUp()==enemy.getUp())?1:0;
+        //int down=(player.getDown()==enemy.getDown()?1:0);
+        int left =(player.getLeft()==enemy.getLeft()?1:0);
+        //int right=(player.getRight()==enemy.getRight()?1:0);
+        int total=up+left;
+        return total==2 ? true : false;
+    }*/
+
+    public boolean checkCollision() {
+
+        if (checker() ) {
+            System.out.println("Hurray....");
+            start();
+
+            return true;
+        }
+        if (player.getUp() == 75 && player.getLeft() == 20) {
+            System.out.println("You've arrived");
+            player.setReachedObjective(true);
+            level++;
+            start();
+
+            return false;
+        }
+        return false;
+    }
+
+
+
+    /*public void startLevelOne(){
+        init();
+
         levelOneOn = false;
         levelTwoOn = true;
-        currentLevel = 2;
-        Rectangle c = new Rectangle(10, 10, 89, 90);
+        level = 2;
+        System.out.println("hiiiiii");
+        Rectangle c = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
         c.draw();
         c.fill();
+    }*/
+/*
+  private boolean reachedObjective;
+
+    public void checkCollision(){
+
+        if(player.getUp() == 75 && player.getLeft() == 20){
+            System.out.println("You've arrived");
+            reachedObjective = true;
+        }
     }
 
-    public boolean isLevelOneOn() {
-        return levelOneOn;
+
+ */
+
+
+   /* public int getObstacle() {
+        return obstacle;
     }
 
     public int getLevel() {
-        return currentLevel;
+        return level;
+    }
+
+    public void setObstacle(int obstacle) {
+        this.obstacle = obstacle;
     }
 
     public void setLevel(int level) {
-        this.currentLevel = level;
-    }
-
+        this.level = level;
+    }*/
 }

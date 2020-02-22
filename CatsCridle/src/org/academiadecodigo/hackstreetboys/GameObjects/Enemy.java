@@ -1,23 +1,23 @@
 package org.academiadecodigo.hackstreetboys.GameObjects;
 
-import org.academiadecodigo.simplegraphics.graphics.Ellipse;
+import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
-import static org.academiadecodigo.hackstreetboys.GameObjects.Menu.PADDING;
 
 
 
 public class Enemy extends GameObject {
 
-    private Ellipse enemyObject;
+    private Rectangle enemyObject;
 
-
-    private int up;
-    private int down = (HEIGHT-2* PADDING -PLAYER_CELL_SIZE)/ MOVEMENT;
-    private int left;
-    private int right = (WIDTH-2* PADDING -PLAYER_CELL_SIZE )/ 10;
+    private int initialization=100;
+    private int sizeOfEnemy=50;
+    private int up=(initialization-2*PADDING)/MOVEMENT;
+    private int down = (HEIGHT-2* PADDING -sizeOfEnemy )/ MOVEMENT-8;
+    private int left=(initialization-2*PADDING)/MOVEMENT;
+    private int right = (WIDTH-2* PADDING -sizeOfEnemy )/ MOVEMENT-8;
 
     public void spawn() {
-        enemyObject = new Ellipse(50, 50, 50, 50);
+        enemyObject = new Rectangle(initialization, initialization, sizeOfEnemy, sizeOfEnemy);
         //enemyObject.wait();
        /* try {
             enemyObject.wait(10000, 10);
@@ -27,9 +27,11 @@ public class Enemy extends GameObject {
        enemyObject.fill();
         enemyObject.draw();
     }
-
+@Override
     public void move() {
         int randomMove = (int) Math.ceil(Math.random() * 4);
+    System.out.println("Enemy up = "+this.up + "   left = "+ this.left);
+    System.out.println("Enemy down = "+this.down + "   right = "+ this.right);
 
         switch (randomMove) {
             case 1:
@@ -65,7 +67,7 @@ public class Enemy extends GameObject {
 
     public static void delay(){
         try {
-            Thread.sleep(500);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -74,39 +76,49 @@ public class Enemy extends GameObject {
     public void moveRight() {
 
         if (right >= 0) {
-            Enemy.delay();
+            //Enemy.delay();
             enemyObject.translate(MOVEMENT, 0);
             //enemyObject.translate(10, 0);
-
+            Enemy.delay();
             left++;
             right--;
+            //Enemy.delay();
+
         }
     }
 
     public void moveLeft() {
         if (left >= 0) {
-            Enemy.delay();
+            //Enemy.delay();
             enemyObject.translate(-MOVEMENT, 0);
+            Enemy.delay();
             right++;
             left--;
+            //Enemy.delay();
         }
     }
 
     public void moveUp() {
+        moveRight();
         if (up >= 0) {
-            Enemy.delay();
+            //Enemy.delay();
             enemyObject.translate(0, -MOVEMENT);
+            Enemy.delay();
             down++;
             up--;
+            //Enemy.delay();
         }
     }
 
     public void moveDown() {
+        moveRight();
         if (down >= 0) {
-            Enemy.delay();
+            //Enemy.delay();
             enemyObject.translate(0, +MOVEMENT);
+            Enemy.delay();
             up++;
             down--;
+            //Enemy.delay();
         }
     }
 

@@ -10,14 +10,28 @@ public class Player extends GameObject {
     private String name;
 
     private Picture playerObject;
+    private boolean dead = false;
     private static final int PLAYER_CELL_SIZE = 20;
     private int up;
     private int down = 820 / 10;
     private int left;
     private int right = 390 / 10;
     private boolean reachedObjective;
+    private boolean isDead;
 
     private GameEngine gameEngine;
+
+    private int enemyUp;
+    private int enemyLeft;
+
+    public Player(Enemy enemy){
+
+        this.enemyUp=enemy.getUp();
+        this.enemyLeft=enemy.getLeft();
+
+
+
+    }
 
 
     public boolean checkDestinationLevel1(){
@@ -26,6 +40,15 @@ public class Player extends GameObject {
             return reachedObjective = true;
         }
         return reachedObjective;
+    }
+
+    public void checkCollision(){
+
+        if(this.enemyUp==this.up &&this.enemyLeft==this.left  ){
+            dead=true;
+            System.out.println("HURRAY.............. ");
+        }
+
     }
 
     public void spawn(){
@@ -97,6 +120,10 @@ public class Player extends GameObject {
             down++;
             up--;
         }
+    }
+
+    public boolean isDead() {
+        return false;
     }
 
     public int getUp() {

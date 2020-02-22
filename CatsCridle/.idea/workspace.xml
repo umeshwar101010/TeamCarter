@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9358303d-2432-4056-b2e0-8a47e6fb5e14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/CatsCridle/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CatsCridle/Objects/GameObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Frame/Canvas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/GameEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Frame/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Frame/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
