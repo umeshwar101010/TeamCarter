@@ -13,7 +13,7 @@ import java.net.URL;
 public class Audio {
 
     public void startAudio() {
-        String pathStr = "resources/Sound/bb4.wav";
+        String pathStr = "/resources/Sound/bb4.wav";
         //Initializer in te class we start the music
         URL soundURL = Audio.class.getResource(pathStr);
         AudioInputStream audioInputStream = null;

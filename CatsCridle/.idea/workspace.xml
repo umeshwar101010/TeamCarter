@@ -33,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../row4game-master" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -108,22 +109,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="656" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582278044697" />
-    <state width="1865" height="270" key="GridCell.Tab.0.bottom" timestamp="1582278085605">
+    <state x="690" y="222" key="FileChooserDialogImpl" timestamp="1582379106261">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582278085605" />
-    <state width="1865" height="270" key="GridCell.Tab.0.center" timestamp="1582278085601">
+    <state x="690" y="222" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1582379106261" />
+    <state width="1865" height="270" key="GridCell.Tab.0.bottom" timestamp="1582379415437">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582278085601" />
-    <state width="1865" height="270" key="GridCell.Tab.0.left" timestamp="1582278085601">
+    <state width="1865" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582379415437" />
+    <state width="1865" height="270" key="GridCell.Tab.0.center" timestamp="1582379415437">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582278085601" />
-    <state width="1865" height="270" key="GridCell.Tab.0.right" timestamp="1582278085605">
+    <state width="1865" height="270" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582379415437" />
+    <state width="1865" height="270" key="GridCell.Tab.0.left" timestamp="1582379415437">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582278085605" />
+    <state width="1865" height="270" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582379415437" />
+    <state width="1865" height="270" key="GridCell.Tab.0.right" timestamp="1582379415437">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="270" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582379415437" />
     <state x="184" y="87" key="MergeDialog" timestamp="1582275715994">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

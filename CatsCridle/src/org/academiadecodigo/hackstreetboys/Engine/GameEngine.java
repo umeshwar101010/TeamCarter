@@ -44,6 +44,8 @@ public class GameEngine {
 
         controls.setPlayerObject(player);
         controls.init();
+        audio = new Audio();
+        audio.startAudio();
 
     }
 
