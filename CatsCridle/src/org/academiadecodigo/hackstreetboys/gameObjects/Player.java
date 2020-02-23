@@ -2,6 +2,7 @@ package org.academiadecodigo.hackstreetboys.gameObjects;
 
 
 import org.academiadecodigo.hackstreetboys.engine.GameEngine;
+import org.academiadecodigo.hackstreetboys.gameObjects.enemies.Enemy;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 
@@ -10,37 +11,24 @@ public class Player extends GameObject {
     private String name;
 
     private Picture playerObject;
-    private boolean dead = false;
+    private boolean dead=false;
     private static final int PLAYER_CELL_SIZE = 20;
     private int up;
     private int down = 820 / 10;
     private int left;
     private int right = 390 / 10;
     private boolean reachedObjective;
-    private boolean isDead;
-
     private GameEngine gameEngine;
-
     private int enemyUp;
     private int enemyLeft;
 
-    public Player(Enemy enemy){
-
-        this.enemyUp=enemy.getUp();
-        this.enemyLeft=enemy.getLeft();
-
-
-
-    }
-
-
-    public boolean checkDestinationLevel1(){
+    /*public boolean checkDestinationLevel1(){
         if(up == 75 && left == 20){
             System.out.println("You've arrived");
             return reachedObjective = true;
         }
         return reachedObjective;
-    }
+    }*/
 
     public void checkCollision(){
 
@@ -63,11 +51,14 @@ public class Player extends GameObject {
             right--;
             System.out.println("right: " + right);
             //System.out.println("destination: " + reachedObjective);
-            checkDestinationLevel1();
+            //checkDestinationLevel1();
             //System.out.println("level: " + gameEngine.isLevelOn());
-
         } else if(OBSTACLES[up][left] == 1){
-            playerObject.translate(-10, 0);
+            playerObject.translate(-30, 0);
+            right++;
+            left--;
+            right++;
+            left--;
             right++;
             left--;
         }
@@ -80,11 +71,15 @@ public class Player extends GameObject {
             right++;
             left--;
             System.out.println("left: " + left);
-            checkDestinationLevel1();
+            //checkDestinationLevel1();
             //checkDestination();
             //System.out.println("level: " + gameEngine.isLevelOn());
         } else if (OBSTACLES[up][left] == 1) {
-            playerObject.translate(10, 0);
+            playerObject.translate(30, 0);
+            left++;
+            right--;
+            left++;
+            right--;
             left++;
             right--;
         }
@@ -96,13 +91,15 @@ public class Player extends GameObject {
             down++;
             up--;
             System.out.println("up: " + up);
-            checkDestinationLevel1();
-
+            //checkDestinationLevel1();
         } else if (OBSTACLES[up][left] == 2) {
-            playerObject.translate(0, 10);
+            playerObject.translate(0, 30);
             down--;
             up++;
-
+            down--;
+            up++;
+            down--;
+            up++;
         }
     }
 
@@ -112,19 +109,29 @@ public class Player extends GameObject {
             up++;
             down--;
             System.out.println("down: " + down);
-            checkDestinationLevel1();
+            //checkDestinationLevel1();
             //checkDestination(); // TODO: check on which level the pley
             //System.out.println("level: " + gameEngine.isLevelOn());
         } else if (OBSTACLES[up][left] == 2) {
-            playerObject.translate(0, -10);
+            playerObject.translate(0, -30);
+            down++;
+            up--;
+            down++;
+            up--;
             down++;
             up--;
         }
     }
 
+
     public boolean isDead() {
-        return false;
+        return dead;
     }
+
+    public void setDead(boolean dead) {
+        this.dead = dead;
+    }
+
 
     public int getUp() {
         return up;
@@ -140,6 +147,14 @@ public class Player extends GameObject {
 
     public boolean isReachedObjective() {
         return reachedObjective;
+    }
+
+    public boolean equalsGetUp(Enemy enemy) {
+        return (this.getUp() == enemy.getUp());
+    }
+
+    public boolean equalsGetLeft(Enemy enemy) {
+        return (this.getLeft() == enemy.getLeft());
     }
 
     public static final int[][] OBSTACLES = {

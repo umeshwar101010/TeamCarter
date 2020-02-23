@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25e1c6c3-b9a3-4170-8cab-3ef335113355" name="Default Changelist" comment="">
+    <list default="true" id="dfd9c4f6-0cd9-4d7d-9742-284cc3bee1d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/engine/levels/Tutorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CatsCridle/com/github/TeamCarter/Engine/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Audio/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/audio/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Audio/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/audio/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Controls/Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/controls/Controls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/engine/GameEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Frame/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/frame/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Frame/Controls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/GameObjects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatsCridle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Images/Canvas/Wassily-Kandinsky-Softened-Construction.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Images/Canvas/Wassily-Kandinsky-Softened-Construction.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/engine/GameEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/engine/levels/LevelOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/engine/levels/LevelOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/engine/levels/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/frame/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/frame/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/hackstreetboys/gameObjects/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,29 +20,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1YB4S2392Ohld1Api560lGaptc0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1YE2viXD5rouE68j16Ua9ymRYYS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,12 +66,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25e1c6c3-b9a3-4170-8cab-3ef335113355" name="Default Changelist" comment="" />
-      <created>1582402649983</created>
+      <changelist id="dfd9c4f6-0cd9-4d7d-9742-284cc3bee1d2" name="Default Changelist" comment="" />
+      <created>1582493666011</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582402649983</updated>
-      <workItem from="1582402653601" duration="4090000" />
+      <updated>1582493666011</updated>
+      <workItem from="1582493669181" duration="670000" />
     </task>
     <servers />
   </component>
@@ -105,10 +88,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CatsCridle$Main.ic" NAME="Main Coverage Results" MODIFIED="1582462003214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.academiadecodigo.hackstreetboys.*</FILTER>
-    </SUITE>
   </component>
 </project>

@@ -3,20 +3,28 @@ package org.academiadecodigo.hackstreetboys.engine;
 
 import org.academiadecodigo.hackstreetboys.engine.levels.LevelOne;
 import org.academiadecodigo.hackstreetboys.audio.Audio;
+import org.academiadecodigo.hackstreetboys.engine.levels.LevelTwo;
+import org.academiadecodigo.hackstreetboys.engine.levels.Tutorial;
+import org.academiadecodigo.hackstreetboys.gameObjects.Menu;
+import org.academiadecodigo.hackstreetboys.gameObjects.Player;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import org.academiadecodigo.hackstreetboys.frame.Canvas;
+import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 
 import static java.awt.image.ImageObserver.HEIGHT;
 import static java.awt.image.ImageObserver.WIDTH;
 
 public class GameEngine {
 
-    private int level = 1;
+    private int level = 0;
     private boolean levelOneOn = true;
-    private boolean levelTwoOn;
+    private boolean tutorialComplete = false;
     private boolean levelOneComplete = false;
     private LevelOne levelOne;
-
+    private boolean gameComplete;
+    private int currentLevel = 0;
+    private Menu menu;
+    private Tutorial tutorial;
 
     public GameEngine() {
         //levelOnCanvas();
@@ -24,41 +32,52 @@ public class GameEngine {
         //player.spawn();
     }
 
-
     public void start() {
-
-        Canvas.makeCanvas(level);
-        levelOne = new LevelOne();
         Audio audio = new Audio();
         audio.startAudio();
-        levelOne.initLevelOne();
+
+        tutorial = new Tutorial();
+        startTutorial();
 
 
-        switch (level) {
-            case 1:
-                Canvas.makeCanvas(level);
-                levelOne.initLevelOne();
+        //levelOne = new LevelOne();
+        //startLevelOne();
 
-                Rectangle rectangle = new Rectangle(10, 10, WIDTH, HEIGHT);
-                rectangle.draw();
-                rectangle.fill();
-                //moveGameObjects();
+    }
+/*
+    public void startLevelOne() {
+        if (!levelOne.isLevelOneComplete()) {
+            System.out.println("hiiiiiiiiiii");
+            levelOne.initLevelOne();
 
-            case 2:
-                Canvas.makeCanvas(level);
-                levelOne.initLevelOne();
-                Rectangle rectangle1 = new Rectangle(10, 10, WIDTH, HEIGHT);
-                rectangle1.draw();
-                rectangle1.fill();
-                //moveGameObjects();
-            case 3:
-                Canvas.makeCanvas(level);
-                levelOne.initLevelOne();
-                Rectangle rectangle2 = new Rectangle(10, 10, WIDTH, HEIGHT);
-                rectangle2.draw();
-                rectangle2.fill();
-                //moveGameObjects();
-                break;
+        } else {
+            System.out.println("level one");
+            levelOneComplete = true;
+            currentLevel+=1;
+
         }
+
+    }*/
+
+    public void startTutorial() {
+        if (!tutorial.isTutorialComplete()) {
+            System.out.println("hiiiiiiiiiii");
+            tutorial.initTutorial();
+        } else {
+            tutorialComplete = true;
+            currentLevel+=1;
+            System.out.println("level one");
+        }
+
+    }
+
+
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    public int getLevel() {
+        return level;
     }
 }
