@@ -1,7 +1,7 @@
-package org.academiadecodigo.hackstreetboys.GameObjects;
+package org.academiadecodigo.hackstreetboys.gameObjects;
 
 
-import org.academiadecodigo.hackstreetboys.Engine.GameEngine;
+import org.academiadecodigo.hackstreetboys.engine.GameEngine;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 

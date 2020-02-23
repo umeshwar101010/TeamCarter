@@ -1,4 +1,4 @@
-package org.academiadecodigo.hackstreetboys.Audio;
+package org.academiadecodigo.hackstreetboys.audio;
 
 
 import javax.sound.sampled.*;

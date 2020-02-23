@@ -1,6 +1,6 @@
-package org.academiadecodigo.hackstreetboys.Controls;
+package org.academiadecodigo.hackstreetboys.controls;
 
-import org.academiadecodigo.hackstreetboys.GameObjects.Player;
+import org.academiadecodigo.hackstreetboys.gameObjects.Player;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;

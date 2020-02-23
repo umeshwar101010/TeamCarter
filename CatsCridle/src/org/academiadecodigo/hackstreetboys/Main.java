@@ -1,7 +1,7 @@
 package org.academiadecodigo.hackstreetboys;
 
 
-import org.academiadecodigo.hackstreetboys.Engine.GameEngine;
+import org.academiadecodigo.hackstreetboys.engine.GameEngine;
 
 
 public class Main {
